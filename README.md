@@ -1,3 +1,3 @@
-Sketch Fun
+#Sketch Fun
 
-Drawing canvas made with [p5](https://p5js.org/)
+Drawing canvas made with [p5.js](https://p5js.org/)
