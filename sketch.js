@@ -6,7 +6,11 @@ function setup() {
 }
 
 function draw() {
-    stroke(50,200,40);
+    if (mouseIsPressed) {
+        stroke(255, 255, 255);
+    } else {
+        stroke(50, 200, 40);
+    }
     line(mouseX-30, mouseY-30, mouseX+30, mouseY+30);
     line(mouseX+30, mouseY-30, mouseX-30, mouseY+30);
 }
